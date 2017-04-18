@@ -4,7 +4,6 @@ body {
     font-size: 14px;
     font-weight: 400;
     overflow-y: scroll;
-    background-color: #FFF;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -117,7 +116,7 @@ NAVIGATION OPACITY
     height: 100%;
     top: 0;
     z-index: 9999;
-    background: #6a67ff;
+    background: rgba(0, 0, 0, 0.95);
 }
 
 ul.menu-fullscreen {
@@ -136,12 +135,12 @@ ul.menu-fullscreen li {
 }
 
 ul.menu-fullscreen li>a {
-    color: #ffffff;
+    color: #7D7D7D;
     border: 0;
 }
 
 ul.menu-fullscreen li>a:hover {
-    color: #d1de67;
+    color: #FFFFFF;
     line-height: normal;
 }
 
@@ -218,14 +217,14 @@ ul.social-icon a:hover {
     top: 30px;
     z-index: 99999;
     padding: 20px;
-    background: #542dc1;
+    background: black;
     cursor: pointer;
 }
 
 .menu-index i {
     float: right;
     font-size: 18px;
-    color: #f1ea40;
+    color: white;
     padding-right: 0px !important;
 }
 
@@ -263,17 +262,16 @@ ul.header-nav {
 }
 
 header .logo>a {
-    font-size: 45px;
-    color: #5b4fdd;
+    font-size: 23px;
     font-weight: 800;
-    line-height: 120px;
+    float: left;
+    line-height: 80px;
     padding-right: 40px;
-    padding-top: 20px;
     border-bottom: 1px solid #f1f1f1;
 }
 
 header .logo>a:hover {
-    color: #d0dd43;
+    color: #c3c3c3;
 }
 
 header li {
@@ -378,19 +376,17 @@ CONTENT
 }
 
 .content .text-intro h1 {
-    font-size: 70px;
-    width: 80%;
-    text-transform: lowercase;
-    color: #99c743;
+    font-size: 43px;
+    width: 40%;
+    text-transform: uppercase;
+    color: #000000;
     font-weight: 900;
     line-height: 70px;
-    text-align: justify;
-    text-shadow: 4px 4px #FFF;
 }
 
 .content .text-intro p {
-    font-size: 18px;
-    color: #333333;
+    font-size: 13px;
+    color: #8d8d8d;
     margin-top: 30px;
     font-weight: 400;
     line-height: 22px;
@@ -563,7 +559,7 @@ li.grid-item {
     width: 360px;
     height: 100%;
     top: 0;
-    background: #2f2cbe;
+    background: white;
     z-index: 2;
     opacity: 0;
     -webkit-transition: all 0.2s ease-in;
@@ -574,7 +570,7 @@ li.grid-item {
 }
 
 .grid-hover:hover {
-    opacity: 0.6;
+    opacity: 0.9;
 }
 
 .grid-hover h1 {
@@ -618,7 +614,7 @@ FOOTER
 }
 
 footer {
-    background: #d8c8ff;
+    background: #f1f1f1;
     width: 100%;
     margin-top: 150px;
     height: 300px;
@@ -640,7 +636,7 @@ footer {
 .footer-margin .copyright {
     color: #686868;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 12px;
     width: 100%;
     text-align: center;
     float: left;
